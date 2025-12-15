@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+html,
+body,
+[class*="css"] {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Sidebar - Deep Blue */
+[data-testid="stSidebar"] {
+    background-color: #0a192f;
+}
+
+[data-testid="stSidebar"] * {
+    color: #ffffff !important;
+}
+
+/* Primary Button - Royal Blue */
+div.stButton>button {
+    background-color: #4169E1;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    font-weight: 600;
+}
+
+div.stButton>button:hover {
+    background-color: #27408B;
+    color: white;
+}
+
+/* Headers */
+h1,
+h2,
+h3 {
+    color: #1a1a1a;
+}
+
+/* Text Areas & Inputs */
+.stTextInput>div>div>input,
+.stTextArea>div>div>textarea {
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+}
+
+.stTextInput>div>div>input:focus,
+.stTextArea>div>div>textarea:focus {
+    border-color: #4169E1;
+    box-shadow: 0 0 0 2px rgba(65, 105, 225, 0.2);
+}
+
+/* Expander Styling */
+.streamlit-expanderHeader {
+    background-color: #f8f9fa;
+    border-radius: 4px;
+}
